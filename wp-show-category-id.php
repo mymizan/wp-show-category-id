@@ -25,11 +25,11 @@ class WP_SHOW_CAT_IDS_MAIN {
 
 	public function show_category_id( $term_name ) {
 
-		if ( $this->is_showing_category_list() ) { 
+		if ( $this->is_showing_category_list() ) {
 			$cat_id = $this->__get_term_id( $term_name );
 
 			if ( $cat_id != 0 ) {
-				return  $term_name . ' (ID: '. $cat_id . ') ';
+				return $term_name . ' (ID: ' . $cat_id . ') ';
 			} else {
 				return $term_name;
 			}
@@ -52,11 +52,12 @@ class WP_SHOW_CAT_IDS_MAIN {
 		$screen = get_current_screen();
 
 		if ( $screen->id == 'edit-category' ) {
-			return get_cat_ID( $term_name );;
+			return get_cat_ID( $term_name );
+
 		}
 
 		if ( $screen->id == 'edit-product_cat' ) {
-			$_term =  get_term_by('name', $term_name , 'product_cat');
+			$_term = get_term_by( 'name', $term_name, 'product_cat' );
 
 			if ( $_term ) {
 				return $_term->term_id;
