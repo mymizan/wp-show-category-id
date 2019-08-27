@@ -1,6 +1,4 @@
 # WP SHOW CATEGORY ID
-A simple plugin that will apply a CSS stylesheet globally across all sites of a WordPress multi-site installation. 
+A simple plugin to show post category and WooCommerce product category IDs on category list page
 
-There are many other CSS plugins which do the job better, but the goal here is simpsicity. As developers, we often need to apply small piece of CSS and a fancy plugin is an overkill for it. I wrote this plugin so that I can put small piece of CSS code that are unrelated to any plugin or themes, without having to install install a complex, bloated plugin. 
-
-Hope you will find it useful. 
+By default, on category list and and WooCommerce product category list, IDs are not shown. Sometimes, you may need to get the IDs for say to include in a shortcode or somewhere else in WordPress. I have made this simple plugin to help achieve that. 

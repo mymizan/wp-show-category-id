@@ -29,7 +29,7 @@ class WP_SHOW_CAT_IDS_MAIN {
 			$cat_id = $this->__get_term_id( $term_name );
 
 			if ( $cat_id != 0 ) {
-				return  $term_name . ' (ID:'. $cat_id . ') ';
+				return  $term_name . ' (ID: '. $cat_id . ') ';
 			} else {
 				return $term_name;
 			}
