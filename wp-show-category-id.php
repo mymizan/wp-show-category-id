@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Show Category ID
- * Plugin URI: https://yakub.xyz
+ * Plugin URI: https://developerhero.net
  * Description: A simple plugin to show category IDs for post categories and WooCommerce product caegories
  * Author: M Yakub Mizan
  * Version: 1.0.0
